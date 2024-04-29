@@ -40,6 +40,9 @@ a {
     color: #fff;
     padding: 2%;
     }
+
+
+
   
 
 #footer{ 
@@ -72,6 +75,21 @@ overflow: hidden;
   90%{ width: 0ch;} /*Text is deleted*/
   100%{ width: 0ch;} /*Text stays hidden*/
   
+}
+
+@media only screen and (max-width: 1000px) { 
+
+
+  .h_0 {
+    color: #ffffff;
+    background-color: #494949;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+
 }
 
 

@@ -122,3 +122,32 @@
   .dropdown-2:hover .dropdown-content-2 {
     display: block;
   }
+
+  @media only screen and (max-width: 1000px) { 
+
+    .text_lg {
+      display: flex;
+      align-items: center;
+    margin-left: 25%;
+    }
+
+    #sidebar {
+   
+      height: 100px;
+      width: 100%; 
+    }
+    .btn {
+      
+      width: 19%;
+
+    }
+
+    .img_lg {
+
+      width: 13%; /* Указываем желаемую ширину изображения */
+      margin-right: 10px
+    }
+
+ 
+
+  }
